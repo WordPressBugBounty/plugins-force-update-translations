@@ -1,0 +1,1 @@
+# plugins-force-update-translations
