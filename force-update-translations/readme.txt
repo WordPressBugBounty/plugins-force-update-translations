@@ -1,18 +1,21 @@
 === Force Update Translations ===
-Contributors: mayukojpn, nao, dartui, pedromendonca, casiepa, mekemoke, miyauchi, nekojonez
+Contributors: mayukojpn, nao, dartui, pedromendonca, casiepa, mekemoke, miyauchi, nekojonez, rocketmartue
 Tags: translation
-Requires at least: 4.9
-Tested up to: 6.4.1
-Requires PHP: 5.2.4
-Stable tag: 0.5
+Requires at least: 4.7
+Tested up to: 6.9
+Requires PHP: 5.6
+Stable tag: 0.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Download WordPress theme/plugin translations and apply them to your site manually even if their language pack haven't been released or reviewed on translate.wordpress.org
+Apply WordPress.org theme and plugin translations to a site even if translations are not yet approved or language packs have not been released.
 
 == Description ==
 
-Download WordPress theme/plugin translations and apply them to your site manually even if their language pack haven't been released or reviewed on translate.wordpress.org
+Apply WordPress.org theme and plugin translations to a site even if translations are not yet approved or language packs have not been released.
+
+**Note about Translation Playground:**
+The [Translation Playground](https://make.wordpress.org/polyglots/2023/04/19/wp-translation-playground/) is now available for quick translation testing. However, if you need to test translations on your actual site, this plugin may remain the practical solution.
 
 ⚠️ Warning ⚠️ Currently this plugin downloads only strings from Development project instead of Stable for plugins. Please wait for an update or see <a href="https://github.com/mayukojpn/force-update-translations/issues/37">the issue on GitHub</a>.
 
@@ -20,10 +23,11 @@ Download WordPress theme/plugin translations and apply them to your site manuall
 
 == Theme translation ==
 
-Finally, updating theme translation files is now supported! To download the translation files for a theme:
+To download the translation files for a theme:
 
 1. Activate the theme you want to get the translation files.
 1. Visit 'Appearance' > 'Update translation' in WordPress menu, or click 'Update translation' on theme details of current theme on 'Themes' page.
+1. Click the 'Update Translations' button.
 
 == Plugin translation ==
 
@@ -42,11 +46,5 @@ To read the changelog for the latest the plugin release, please navigate to the 
 
 == Upgrade Notice ==
 
-= 0.5 =
-* Child theme support.
-
-= 0.4 =
-* Bug fix for fresh installed WP.
-
-= 0.3 =
-* Added theme translation support.
+= 0.6.0 =
+* Security fix for CVE-2025-58236. Update recommended.
